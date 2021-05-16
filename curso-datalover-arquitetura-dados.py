@@ -8,7 +8,7 @@
 # MAGIC %md
 # MAGIC # Montando o acesso para o data lake (Azure blob storage)
 
-# COMMAND ----------
+# COMMAND ---------- 
 
 configs = {"fs.azure.account.auth.type": "OAuth",
            "fs.azure.account.oauth.provider.type": "org.apache.hadoop.fs.azurebfs.oauth2.ClientCredsTokenProvider",
